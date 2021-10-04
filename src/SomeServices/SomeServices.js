@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './SomeServices.css'
+import { Link } from 'react-router-dom';
 const SomeServices = () => {
 const [services, setServices] = useState([]);
 const url = './data.JSON'
@@ -26,7 +27,9 @@ useEffect(() =>{
                   <h4>{pd.subject}</h4>
                   <p>Course Price: {pd.coursePrice}</p>
                   <p>Duration: {pd.duration}</p>
+                  <Link to="./enroll">
                   <button className='service-btn'>Enroll Now</button>
+                  </Link>
                 </div>
               </div>
             </div>
