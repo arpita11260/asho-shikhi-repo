@@ -1,0 +1,22 @@
+.banner {
+    background-image: url("https://image.freepik.com/free-photo/cheerful-student-girl-holding-books-library_329181-14864.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 780px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .title {
+    color: black;
+    font-weight: bold;
+    font-size: 59px;
+  }
+  .about-btn {
+    background-color: rgb(29, 228, 89);
+    outline: none;
+    border: none;
+    padding: 17px 34px;
+    color: black;
+  }

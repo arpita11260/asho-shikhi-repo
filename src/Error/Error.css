@@ -1,0 +1,12 @@
+.error-bg {
+    height: 100vh;
+    color: black;
+    padding-top: 30px;
+    background-color: gray;
+  }
+  .error{
+    height: 230px;
+  }
+  h2{
+    color: rgb(29, 228, 89);
+  }

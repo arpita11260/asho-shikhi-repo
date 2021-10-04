@@ -1,0 +1,18 @@
+.logo-img{
+  height: 100px;
+  width: 160px;
+  border-radius: 15px;
+}
+.items {
+    list-style: none;
+    margin-right: 80px;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+    text-decoration: none;
+  }
+  .items:hover {
+    color: rgb(29, 228, 89);
+  }
